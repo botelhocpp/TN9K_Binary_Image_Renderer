@@ -79,6 +79,6 @@ gen-img: $(IMG_IN)
 	python $(GENBIN) $< $(BIN_OUT)
 
 flash-img: gen-img
-	sudo openFPGALoader -b tangnano9k -f --file-type raw --offset $(OFFSET) $<
+	openFPGALoader -b tangnano9k -f --file-type raw --offset $(OFFSET) $<
 
 .PHONY: all build test clean flash flash-img gen-img
