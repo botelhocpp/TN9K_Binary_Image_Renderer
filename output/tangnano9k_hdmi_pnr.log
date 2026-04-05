@@ -1,0 +1,501 @@
+Info: Using uarch 'gowin' for device 'GW1NR-LV9QN88PC6/I5'
+
+Info: Cell O_psram_ck[0] not found
+Info: Cell O_psram_ck[1] not found
+Info: Cell O_psram_ck_n[0] not found
+Info: Cell O_psram_ck_n[1] not found
+Info: Cell O_psram_cs_n[0] not found
+Info: Cell O_psram_cs_n[1] not found
+Info: Cell O_psram_reset_n[0] not found
+Info: Cell O_psram_reset_n[1] not found
+Info: Cell IO_psram_dq[0] not found
+Info: Cell IO_psram_dq[1] not found
+Info: Cell IO_psram_dq[2] not found
+Info: Cell IO_psram_dq[3] not found
+Info: Cell IO_psram_dq[4] not found
+Info: Cell IO_psram_dq[5] not found
+Info: Cell IO_psram_dq[6] not found
+Info: Cell IO_psram_dq[7] not found
+Info: Cell IO_psram_dq[8] not found
+Info: Cell IO_psram_dq[9] not found
+Info: Cell IO_psram_dq[10] not found
+Info: Cell IO_psram_dq[11] not found
+Info: Cell IO_psram_dq[12] not found
+Info: Cell IO_psram_dq[13] not found
+Info: Cell IO_psram_dq[14] not found
+Info: Cell IO_psram_dq[15] not found
+Info: Cell IO_psram_rwds[0] not found
+Info: Cell IO_psram_rwds[1] not found
+Info: Reading constraints...
+Info: Create constant nets...
+Info: Modify LUTs...
+Info: Pack IOBs...
+Info: o_Hdmi_Tmds_Data_P_OBUF_O_2: O - o_Hdmi_Tmds_Data_P[0]
+Info: o_Hdmi_Tmds_Data_P_OBUF_O_2: I - e_HDMI_DRIVER.o_Tmds_Data_P[0]
+Info: o_Hdmi_Tmds_Data_P_OBUF_O_1: O - o_Hdmi_Tmds_Data_P[1]
+Info: o_Hdmi_Tmds_Data_P_OBUF_O_1: I - e_HDMI_DRIVER.o_Tmds_Data_P[1]
+Info: o_Hdmi_Tmds_Data_P_OBUF_O: O - o_Hdmi_Tmds_Data_P[2]
+Info: o_Hdmi_Tmds_Data_P_OBUF_O: I - e_HDMI_DRIVER.o_Tmds_Data_P[2]
+Info: o_Hdmi_Tmds_Data_N_OBUF_O_2: O - o_Hdmi_Tmds_Data_N[0]
+Info: o_Hdmi_Tmds_Data_N_OBUF_O_2: I - e_HDMI_DRIVER.o_Tmds_Data_N[0]
+Info: o_Hdmi_Tmds_Data_N_OBUF_O_1: O - o_Hdmi_Tmds_Data_N[1]
+Info: o_Hdmi_Tmds_Data_N_OBUF_O_1: I - e_HDMI_DRIVER.o_Tmds_Data_N[1]
+Info: o_Hdmi_Tmds_Data_N_OBUF_O: O - o_Hdmi_Tmds_Data_N[2]
+Info: o_Hdmi_Tmds_Data_N_OBUF_O: I - e_HDMI_DRIVER.o_Tmds_Data_N[2]
+Info: o_Hdmi_Tmds_Clk_P_OBUF_O: O - o_Hdmi_Tmds_Clk_P
+Info: o_Hdmi_Tmds_Clk_P_OBUF_O: I - e_HDMI_DRIVER.o_Tmds_Clk_P
+Info: o_Hdmi_Tmds_Clk_N_OBUF_O: O - o_Hdmi_Tmds_Clk_N
+Info: o_Hdmi_Tmds_Clk_N_OBUF_O: I - e_HDMI_DRIVER.o_Tmds_Clk_N
+Info: o_Flash_Mosi_OBUF_O: O - o_Flash_Mosi
+Info: o_Flash_Mosi_OBUF_O: I - e_FLASH_CONTROLLER.o_Mosi
+Info: o_Flash_Cs_OBUF_O: O - o_Flash_Cs
+Info: o_Flash_Cs_OBUF_O: I - e_FLASH_CONTROLLER.o_Cs
+Info: o_Flash_Clk_OBUF_O: O - o_Flash_Clk
+Info: o_Flash_Clk_OBUF_O: I - e_FLASH_CONTROLLER.o_Clk
+Info: e_FLASH_CONTROLLER.i_Miso_IBUF_O: O - e_FLASH_CONTROLLER.i_Miso
+Info: e_FLASH_CONTROLLER.i_Miso_IBUF_O: I - i_Flash_Miso
+Info: e_CLOCK_RESET.e_RESET.i_nRst_IBUF_O: O - e_CLOCK_RESET.i_nRst
+Info: e_CLOCK_RESET.e_RESET.i_nRst_IBUF_O: I - i_nRst
+Info: e_CLOCK_RESET.e_CLOCK_CONTROL.i_Clk_IBUF_O: O - e_CLOCK_RESET.i_Clk
+Info: e_CLOCK_RESET.e_CLOCK_CONTROL.i_Clk_IBUF_O: I - i_Clk
+Info: Pack I3C IOs...
+Info: Pack MIPI IOs...
+Info: Pack diff IOBs...
+Info: Pack FFs into IO cells...
+Info: Pack IODELAY...
+Info: Pack Input Edge Monitors...
+Info: Pack IO logic...
+Info: o_Hdmi_Tmds_Data_P_OBUF_O: O - o_Hdmi_Tmds_Data_P[2]
+Info: o_Hdmi_Tmds_Data_P_OBUF_O_1: O - o_Hdmi_Tmds_Data_P[1]
+Info: o_Hdmi_Tmds_Clk_P_OBUF_O: O - o_Hdmi_Tmds_Clk_P
+Info: o_Hdmi_Tmds_Data_P_OBUF_O_2: O - o_Hdmi_Tmds_Data_P[0]
+Info: Pack DESER16 logic...
+Info: Pack GSR...
+Info: No user GSR. Make one.
+Info: Pack HCLK cells...
+Info: Pack DLLDLYs...
+Info: Pack wide LUTs...
+Info: Packed MUX2_LUT8:0, MUX2_LU7:0, MUX2_LUT6:0, MUX2_LUT5:0
+Info: Pack ALUs...
+Info: Constrained 489 LUTFF pairs.
+Info: Pack PLL...
+Info: Pack RAMs...
+Info: Pack BSRAMs...
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info:  pack DPX9B
+Info: Pack DSP...
+Info: Pack INV...
+Info: Pack buffered nets...
+Info: Pack EMCU and UserFlash cells...
+Info: Pack UserFlash cells...
+Info: Pack DQCE cells...
+Info: Pack DCS cells...
+Info: Checksum: 0x636c165d
+
+Info: Device utilisation:
+Info: 	                 VCC:       1/      1   100%
+Info: 	                 IOB:      14/    274     5%
+Info: 	                LUT4:    1023/   8640    11%
+Info: 	              OSER16:       0/     80     0%
+Info: 	              IDES16:       0/     80     0%
+Info: 	            IOLOGICI:       0/    276     0%
+Info: 	            IOLOGICO:       4/    276     1%
+Info: 	           MUX2_LUT5:       0/   4320     0%
+Info: 	           MUX2_LUT6:       0/   2160     0%
+Info: 	           MUX2_LUT7:       0/   1080     0%
+Info: 	           MUX2_LUT8:       0/   1080     0%
+Info: 	                 ALU:       0/   6480     0%
+Info: 	                 GND:       1/      1   100%
+Info: 	                 DFF:     545/   6480     8%
+Info: 	           RAM16SDP4:       0/    270     0%
+Info: 	               BSRAM:      19/     26    73%
+Info: 	              ALU54D:       0/     10     0%
+Info: 	     MULTADDALU18X18:       0/     10     0%
+Info: 	        MULTALU18X18:       0/     10     0%
+Info: 	        MULTALU36X18:       0/     10     0%
+Info: 	           MULT36X36:       0/      5     0%
+Info: 	           MULT18X18:       0/     20     0%
+Info: 	             MULT9X9:       0/     40     0%
+Info: 	              PADD18:       0/     20     0%
+Info: 	               PADD9:       0/     40     0%
+Info: 	                 GSR:       1/      1   100%
+Info: 	                 OSC:       0/      1     0%
+Info: 	                rPLL:       1/      2    50%
+Info: 	           FLASH608K:       0/      1     0%
+Info: 	                BUFG:       0/     22     0%
+Info: 	                DQCE:       0/     24     0%
+Info: 	                 DCS:       0/      8     0%
+Info: 	               DHCEN:       0/     24     0%
+Info: 	              CLKDIV:       1/      8    12%
+Info: 	             CLKDIV2:       0/     16     0%
+Info: 	           MIPI_IBUF:       0/     22     0%
+Info: 	           MIPI_OBUF:       0/     20     0%
+
+Info: Running custom HCLK placer...
+Info: Placed 0 cells based on constraints.
+Info: Creating initial analytic placement for 1103 cells, random placement wirelen = 42231.
+Info:     at initial placer iter 0, wirelen = 257
+Info:     at initial placer iter 1, wirelen = 281
+Info:     at initial placer iter 2, wirelen = 254
+Info:     at initial placer iter 3, wirelen = 271
+Info: Running main analytical placer, max placement attempts per cell = 325624.
+Info:     at iteration #1, type GSR: wirelen solved = 271, spread = 271, legal = 312; time = 0.00s
+Info:     at iteration #1, type LUT4: wirelen solved = 1034, spread = 8946, legal = 9160; time = 0.01s
+Info:     at iteration #1, type DFF: wirelen solved = 8867, spread = 8897, legal = 9326; time = 0.01s
+Info:     at iteration #1, type CLKDIV: wirelen solved = 9326, spread = 9326, legal = 9326; time = 0.00s
+Info:     at iteration #1, type rPLL: wirelen solved = 9326, spread = 9326, legal = 9339; time = 0.01s
+Info:     at iteration #1, type BSRAM: wirelen solved = 5407, spread = 11800, legal = 13416; time = 0.01s
+Info:     at iteration #1, type GND: wirelen solved = 13416, spread = 13416, legal = 13420; time = 0.01s
+Info:     at iteration #1, type VCC: wirelen solved = 13420, spread = 13420, legal = 13420; time = 0.00s
+Info:     at iteration #1, type ALL: wirelen solved = 300, spread = 11887, legal = 13934; time = 0.04s
+Info:     at iteration #2, type GSR: wirelen solved = 13934, spread = 13934, legal = 13934; time = 0.00s
+Info:     at iteration #2, type LUT4: wirelen solved = 8430, spread = 9909, legal = 10067; time = 0.01s
+Info:     at iteration #2, type DFF: wirelen solved = 9699, spread = 9741, legal = 9877; time = 0.01s
+Info:     at iteration #2, type CLKDIV: wirelen solved = 9877, spread = 9877, legal = 9877; time = 0.00s
+Info:     at iteration #2, type rPLL: wirelen solved = 9874, spread = 9874, legal = 9877; time = 0.00s
+Info:     at iteration #2, type BSRAM: wirelen solved = 6349, spread = 9400, legal = 11348; time = 0.01s
+Info:     at iteration #2, type GND: wirelen solved = 11344, spread = 11344, legal = 11348; time = 0.00s
+Info:     at iteration #2, type VCC: wirelen solved = 11348, spread = 11348, legal = 11348; time = 0.00s
+Info:     at iteration #2, type ALL: wirelen solved = 625, spread = 10542, legal = 12029; time = 0.04s
+Info:     at iteration #3, type GSR: wirelen solved = 12029, spread = 12029, legal = 12029; time = 0.00s
+Info:     at iteration #3, type LUT4: wirelen solved = 7892, spread = 8853, legal = 9174; time = 0.01s
+Info:     at iteration #3, type DFF: wirelen solved = 8844, spread = 8889, legal = 9019; time = 0.01s
+Info:     at iteration #3, type CLKDIV: wirelen solved = 9019, spread = 9019, legal = 9019; time = 0.00s
+Info:     at iteration #3, type rPLL: wirelen solved = 9014, spread = 9014, legal = 9019; time = 0.00s
+Info:     at iteration #3, type BSRAM: wirelen solved = 5541, spread = 9755, legal = 10632; time = 0.01s
+Info:     at iteration #3, type GND: wirelen solved = 10628, spread = 10628, legal = 10632; time = 0.00s
+Info:     at iteration #3, type VCC: wirelen solved = 10632, spread = 10632, legal = 10632; time = 0.00s
+Info:     at iteration #3, type ALL: wirelen solved = 910, spread = 9997, legal = 12170; time = 0.04s
+Info:     at iteration #4, type GSR: wirelen solved = 12170, spread = 12170, legal = 12170; time = 0.00s
+Info:     at iteration #4, type LUT4: wirelen solved = 8818, spread = 10823, legal = 10827; time = 0.01s
+Info:     at iteration #4, type DFF: wirelen solved = 10332, spread = 10339, legal = 10370; time = 0.01s
+Info:     at iteration #4, type CLKDIV: wirelen solved = 10370, spread = 10370, legal = 10370; time = 0.00s
+Info:     at iteration #4, type rPLL: wirelen solved = 10365, spread = 10365, legal = 10370; time = 0.00s
+Info:     at iteration #4, type BSRAM: wirelen solved = 5451, spread = 9104, legal = 10758; time = 0.01s
+Info:     at iteration #4, type GND: wirelen solved = 10756, spread = 10756, legal = 10758; time = 0.00s
+Info:     at iteration #4, type VCC: wirelen solved = 10758, spread = 10758, legal = 10758; time = 0.00s
+Info:     at iteration #4, type ALL: wirelen solved = 1115, spread = 9809, legal = 12389; time = 0.04s
+Info:     at iteration #5, type GSR: wirelen solved = 12389, spread = 12389, legal = 12389; time = 0.00s
+Info:     at iteration #5, type LUT4: wirelen solved = 9256, spread = 10615, legal = 10619; time = 0.01s
+Info:     at iteration #5, type DFF: wirelen solved = 10349, spread = 10373, legal = 10402; time = 0.01s
+Info:     at iteration #5, type CLKDIV: wirelen solved = 10402, spread = 10402, legal = 10402; time = 0.00s
+Info:     at iteration #5, type rPLL: wirelen solved = 10397, spread = 10397, legal = 10402; time = 0.01s
+Info:     at iteration #5, type BSRAM: wirelen solved = 4686, spread = 9074, legal = 11087; time = 0.01s
+Info:     at iteration #5, type GND: wirelen solved = 11086, spread = 11086, legal = 11087; time = 0.00s
+Info:     at iteration #5, type VCC: wirelen solved = 11087, spread = 11087, legal = 11087; time = 0.00s
+Info:     at iteration #5, type ALL: wirelen solved = 1139, spread = 10326, legal = 12299; time = 0.04s
+Info:     at iteration #6, type GSR: wirelen solved = 12299, spread = 12299, legal = 12299; time = 0.01s
+Info:     at iteration #6, type LUT4: wirelen solved = 9104, spread = 10038, legal = 10071; time = 0.02s
+Info:     at iteration #6, type DFF: wirelen solved = 9753, spread = 9793, legal = 9873; time = 0.01s
+Info:     at iteration #6, type CLKDIV: wirelen solved = 9873, spread = 9873, legal = 9873; time = 0.00s
+Info:     at iteration #6, type rPLL: wirelen solved = 9871, spread = 9871, legal = 9873; time = 0.00s
+Info:     at iteration #6, type BSRAM: wirelen solved = 4835, spread = 8733, legal = 10540; time = 0.01s
+Info:     at iteration #6, type GND: wirelen solved = 10539, spread = 10539, legal = 10540; time = 0.00s
+Info:     at iteration #6, type VCC: wirelen solved = 10540, spread = 10540, legal = 10540; time = 0.00s
+Info:     at iteration #6, type ALL: wirelen solved = 1440, spread = 10285, legal = 11612; time = 0.03s
+Info:     at iteration #7, type GSR: wirelen solved = 11612, spread = 11612, legal = 11612; time = 0.00s
+Info:     at iteration #7, type LUT4: wirelen solved = 9639, spread = 10369, legal = 10433; time = 0.01s
+Info:     at iteration #7, type DFF: wirelen solved = 10072, spread = 10095, legal = 10181; time = 0.01s
+Info:     at iteration #7, type CLKDIV: wirelen solved = 10181, spread = 10181, legal = 10181; time = 0.01s
+Info:     at iteration #7, type rPLL: wirelen solved = 10178, spread = 10178, legal = 10181; time = 0.01s
+Info:     at iteration #7, type BSRAM: wirelen solved = 4492, spread = 8273, legal = 10605; time = 0.01s
+Info:     at iteration #7, type GND: wirelen solved = 10604, spread = 10604, legal = 10605; time = 0.01s
+Info:     at iteration #7, type VCC: wirelen solved = 10605, spread = 10605, legal = 10605; time = 0.01s
+Info:     at iteration #7, type ALL: wirelen solved = 1536, spread = 10124, legal = 11866; time = 0.04s
+Info:     at iteration #8, type GSR: wirelen solved = 11866, spread = 11866, legal = 11866; time = 0.00s
+Info:     at iteration #8, type LUT4: wirelen solved = 9482, spread = 9911, legal = 9972; time = 0.01s
+Info:     at iteration #8, type DFF: wirelen solved = 9802, spread = 9854, legal = 9903; time = 0.01s
+Info:     at iteration #8, type CLKDIV: wirelen solved = 9903, spread = 9903, legal = 9903; time = 0.00s
+Info:     at iteration #8, type rPLL: wirelen solved = 9901, spread = 9901, legal = 9903; time = 0.00s
+Info:     at iteration #8, type BSRAM: wirelen solved = 4723, spread = 8122, legal = 10366; time = 0.01s
+Info:     at iteration #8, type GND: wirelen solved = 10365, spread = 10365, legal = 10366; time = 0.00s
+Info:     at iteration #8, type VCC: wirelen solved = 10366, spread = 10366, legal = 10366; time = 0.00s
+Info:     at iteration #8, type ALL: wirelen solved = 1545, spread = 10053, legal = 11497; time = 0.03s
+Info:     at iteration #9, type GSR: wirelen solved = 11497, spread = 11497, legal = 11497; time = 0.00s
+Info:     at iteration #9, type LUT4: wirelen solved = 9663, spread = 10096, legal = 10228; time = 0.01s
+Info:     at iteration #9, type DFF: wirelen solved = 10078, spread = 10157, legal = 10178; time = 0.01s
+Info:     at iteration #9, type CLKDIV: wirelen solved = 10178, spread = 10178, legal = 10178; time = 0.00s
+Info:     at iteration #9, type rPLL: wirelen solved = 10175, spread = 10175, legal = 10178; time = 0.00s
+Info:     at iteration #9, type BSRAM: wirelen solved = 4214, spread = 8103, legal = 10119; time = 0.01s
+Info:     at iteration #9, type GND: wirelen solved = 10118, spread = 10118, legal = 10119; time = 0.00s
+Info:     at iteration #9, type VCC: wirelen solved = 10119, spread = 10119, legal = 10119; time = 0.00s
+Info:     at iteration #9, type ALL: wirelen solved = 1599, spread = 10157, legal = 11933; time = 0.04s
+Info:     at iteration #10, type GSR: wirelen solved = 11933, spread = 11933, legal = 11933; time = 0.00s
+Info:     at iteration #10, type LUT4: wirelen solved = 10448, spread = 11319, legal = 11328; time = 0.01s
+Info:     at iteration #10, type DFF: wirelen solved = 11060, spread = 11065, legal = 11092; time = 0.01s
+Info:     at iteration #10, type CLKDIV: wirelen solved = 11092, spread = 11092, legal = 11092; time = 0.00s
+Info:     at iteration #10, type rPLL: wirelen solved = 11087, spread = 11087, legal = 11092; time = 0.00s
+Info:     at iteration #10, type BSRAM: wirelen solved = 4376, spread = 8185, legal = 10239; time = 0.01s
+Info:     at iteration #10, type GND: wirelen solved = 10238, spread = 10238, legal = 10239; time = 0.00s
+Info:     at iteration #10, type VCC: wirelen solved = 10239, spread = 10239, legal = 10239; time = 0.00s
+Info:     at iteration #10, type ALL: wirelen solved = 1888, spread = 8824, legal = 11271; time = 0.04s
+Info:     at iteration #11, type GSR: wirelen solved = 11271, spread = 11271, legal = 11271; time = 0.01s
+Info:     at iteration #11, type LUT4: wirelen solved = 10126, spread = 10905, legal = 10963; time = 0.01s
+Info:     at iteration #11, type DFF: wirelen solved = 10805, spread = 10828, legal = 10849; time = 0.01s
+Info:     at iteration #11, type CLKDIV: wirelen solved = 10849, spread = 10849, legal = 10849; time = 0.00s
+Info:     at iteration #11, type rPLL: wirelen solved = 10844, spread = 10844, legal = 10849; time = 0.00s
+Info:     at iteration #11, type BSRAM: wirelen solved = 4260, spread = 8279, legal = 10698; time = 0.01s
+Info:     at iteration #11, type GND: wirelen solved = 10698, spread = 10698, legal = 10698; time = 0.01s
+Info:     at iteration #11, type VCC: wirelen solved = 10698, spread = 10698, legal = 10698; time = 0.00s
+Info:     at iteration #11, type ALL: wirelen solved = 1948, spread = 8908, legal = 11136; time = 0.04s
+Info:     at iteration #12, type GSR: wirelen solved = 11136, spread = 11136, legal = 11136; time = 0.00s
+Info:     at iteration #12, type LUT4: wirelen solved = 10063, spread = 10661, legal = 10722; time = 0.01s
+Info:     at iteration #12, type DFF: wirelen solved = 10601, spread = 10641, legal = 10655; time = 0.01s
+Info:     at iteration #12, type CLKDIV: wirelen solved = 10655, spread = 10655, legal = 10655; time = 0.00s
+Info:     at iteration #12, type rPLL: wirelen solved = 10654, spread = 10654, legal = 10655; time = 0.00s
+Info:     at iteration #12, type BSRAM: wirelen solved = 3588, spread = 8202, legal = 10577; time = 0.01s
+Info:     at iteration #12, type GND: wirelen solved = 10577, spread = 10577, legal = 10577; time = 0.00s
+Info:     at iteration #12, type VCC: wirelen solved = 10577, spread = 10577, legal = 10577; time = 0.00s
+Info:     at iteration #12, type ALL: wirelen solved = 2207, spread = 8898, legal = 11997; time = 0.03s
+Info:     at iteration #13, type GSR: wirelen solved = 11997, spread = 11997, legal = 11997; time = 0.00s
+Info:     at iteration #13, type LUT4: wirelen solved = 10855, spread = 11377, legal = 11383; time = 0.01s
+Info:     at iteration #13, type DFF: wirelen solved = 11278, spread = 11280, legal = 11299; time = 0.01s
+Info:     at iteration #13, type CLKDIV: wirelen solved = 11299, spread = 11299, legal = 11299; time = 0.00s
+Info:     at iteration #13, type rPLL: wirelen solved = 11298, spread = 11298, legal = 11299; time = 0.00s
+Info:     at iteration #13, type BSRAM: wirelen solved = 3380, spread = 8460, legal = 10341; time = 0.01s
+Info:     at iteration #13, type GND: wirelen solved = 10341, spread = 10341, legal = 10341; time = 0.00s
+Info:     at iteration #13, type VCC: wirelen solved = 10341, spread = 10341, legal = 10341; time = 0.00s
+Info:     at iteration #13, type ALL: wirelen solved = 2057, spread = 9317, legal = 11546; time = 0.03s
+Info:     at iteration #14, type GSR: wirelen solved = 11546, spread = 11546, legal = 11546; time = 0.00s
+Info:     at iteration #14, type LUT4: wirelen solved = 10580, spread = 11045, legal = 11071; time = 0.01s
+Info:     at iteration #14, type DFF: wirelen solved = 11011, spread = 11023, legal = 11056; time = 0.01s
+Info:     at iteration #14, type CLKDIV: wirelen solved = 11056, spread = 11056, legal = 11056; time = 0.00s
+Info:     at iteration #14, type rPLL: wirelen solved = 11055, spread = 11055, legal = 11056; time = 0.00s
+Info:     at iteration #14, type BSRAM: wirelen solved = 3559, spread = 8520, legal = 10997; time = 0.01s
+Info:     at iteration #14, type GND: wirelen solved = 10997, spread = 10997, legal = 10997; time = 0.00s
+Info:     at iteration #14, type VCC: wirelen solved = 10997, spread = 10997, legal = 10997; time = 0.00s
+Info:     at iteration #14, type ALL: wirelen solved = 2196, spread = 9040, legal = 11866; time = 0.03s
+Info:     at iteration #15, type GSR: wirelen solved = 11866, spread = 11866, legal = 11866; time = 0.00s
+Info:     at iteration #15, type LUT4: wirelen solved = 10883, spread = 11486, legal = 11485; time = 0.01s
+Info:     at iteration #15, type DFF: wirelen solved = 11383, spread = 11386, legal = 11391; time = 0.01s
+Info:     at iteration #15, type CLKDIV: wirelen solved = 11391, spread = 11391, legal = 11391; time = 0.00s
+Info:     at iteration #15, type rPLL: wirelen solved = 11390, spread = 11390, legal = 11391; time = 0.00s
+Info:     at iteration #15, type BSRAM: wirelen solved = 4135, spread = 8886, legal = 11408; time = 0.01s
+Info:     at iteration #15, type GND: wirelen solved = 11408, spread = 11408, legal = 11408; time = 0.00s
+Info:     at iteration #15, type VCC: wirelen solved = 11408, spread = 11408, legal = 11408; time = 0.00s
+Info:     at iteration #15, type ALL: wirelen solved = 2379, spread = 9896, legal = 12958; time = 0.04s
+Info:     at iteration #16, type GSR: wirelen solved = 12958, spread = 12958, legal = 12958; time = 0.01s
+Info:     at iteration #16, type LUT4: wirelen solved = 11668, spread = 12113, legal = 12177; time = 0.01s
+Info:     at iteration #16, type DFF: wirelen solved = 11937, spread = 11940, legal = 11958; time = 0.01s
+Info:     at iteration #16, type CLKDIV: wirelen solved = 11958, spread = 11958, legal = 11958; time = 0.01s
+Info:     at iteration #16, type rPLL: wirelen solved = 11957, spread = 11957, legal = 11958; time = 0.01s
+Info:     at iteration #16, type BSRAM: wirelen solved = 3952, spread = 9346, legal = 11916; time = 0.01s
+Info:     at iteration #16, type GND: wirelen solved = 11916, spread = 11916, legal = 11916; time = 0.01s
+Info:     at iteration #16, type VCC: wirelen solved = 11916, spread = 11916, legal = 11916; time = 0.01s
+Info:     at iteration #16, type ALL: wirelen solved = 2525, spread = 9499, legal = 12215; time = 0.03s
+Info: HeAP Placer Time: 1.49s
+Info:   of which solving equations: 0.91s
+Info:   of which spreading cells: 0.08s
+Info:   of which strict legalisation: 0.38s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 15, wirelen = 11136
+iter #1: temp = 0.000000, timing cost = 9, wirelen = 9267, dia = 3, Ra = 0.08 
+iter #2: temp = 0.000000, timing cost = 6, wirelen = 8442, dia = 3, Ra = 0.07 
+iter #3: temp = 0.000000, timing cost = 9, wirelen = 8024, dia = 3, Ra = 0.05 
+iter #4: temp = 0.000000, timing cost = 8, wirelen = 7758, dia = 3, Ra = 0.04 
+Info:   at iteration #5: temp = 0.000000, timing cost = 8, wirelen = 7758
+iter #5: temp = 0.000000, timing cost = 7, wirelen = 7634, dia = 3, Ra = 0.04 
+iter #6: temp = 0.000000, timing cost = 7, wirelen = 7573, dia = 3, Ra = 0.03 
+iter #7: temp = 0.000000, timing cost = 6, wirelen = 7541, dia = 3, Ra = 0.03 
+iter #8: temp = 0.000000, timing cost = 4, wirelen = 7517, dia = 3, Ra = 0.03 
+iter #9: temp = 0.000000, timing cost = 5, wirelen = 7469, dia = 3, Ra = 0.03 
+Info:   at iteration #10: temp = 0.000000, timing cost = 6, wirelen = 7469
+iter #10: temp = 0.000000, timing cost = 5, wirelen = 7460, dia = 3, Ra = 0.02 
+iter #11: temp = 0.000000, timing cost = 5, wirelen = 7427, dia = 3, Ra = 0.03 
+iter #12: temp = 0.000000, timing cost = 5, wirelen = 7417, dia = 3, Ra = 0.03 
+iter #13: temp = 0.000000, timing cost = 5, wirelen = 7412, dia = 3, Ra = 0.02 
+iter #14: temp = 0.000000, timing cost = 5, wirelen = 7375, dia = 2, Ra = 0.04 
+Info:   at iteration #15: temp = 0.000000, timing cost = 5, wirelen = 7375
+iter #15: temp = 0.000000, timing cost = 5, wirelen = 7356, dia = 2, Ra = 0.04 
+iter #16: temp = 0.000000, timing cost = 5, wirelen = 7336, dia = 1, Ra = 0.10 
+iter #17: temp = 0.000000, timing cost = 5, wirelen = 7327, dia = 1, Ra = 0.09 
+iter #18: temp = 0.000000, timing cost = 4, wirelen = 7310, dia = 1, Ra = 0.09 
+iter #19: temp = 0.000000, timing cost = 4, wirelen = 7300, dia = 1, Ra = 0.09 
+Info:   at iteration #20: temp = 0.000000, timing cost = 4, wirelen = 7300
+Info:   at iteration #20: temp = 0.000000, timing cost = 4, wirelen = 7300 
+Info: SA placement time 0.70s
+
+Info: Max frequency for clock 'e_CLOCK_RESET.i_Clk': 1166.86 MHz (PASS at 12.00 MHz)
+Info: Max frequency for clock          'w_Slow_Clk': 129.52 MHz (PASS at 12.00 MHz)
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ 75612,  75956) |+
+Info: [ 75956,  76300) | 
+Info: [ 76300,  76644) | 
+Info: [ 76644,  76988) | 
+Info: [ 76988,  77332) | 
+Info: [ 77332,  77676) |+
+Info: [ 77676,  78020) |*+
+Info: [ 78020,  78364) |+
+Info: [ 78364,  78708) |*****+
+Info: [ 78708,  79052) |+
+Info: [ 79052,  79396) |*****+
+Info: [ 79396,  79740) |**************+
+Info: [ 79740,  80084) |*******+
+Info: [ 80084,  80428) |********+
+Info: [ 80428,  80772) |*********+
+Info: [ 80772,  81116) |**********+
+Info: [ 81116,  81460) |************************************************************ 
+Info: [ 81460,  81804) |****+
+Info: [ 81804,  82148) |**********+
+Info: [ 82148,  82492) |********************************+
+Info: Checksum: 0x0934c40b
+Info: Routing globals...
+Info: route clock net 'w_Fast_Clk', src:e_CLOCK_RESET.e_CLOCK_CONTROL.e_PLL
+Info:     'w_Fast_Clk' net was routed using global resources only.
+Info: route clock net 'e_CLOCK_RESET.i_Clk', src:e_CLOCK_RESET.e_CLOCK_CONTROL.i_Clk_IBUF_O
+Info:     'e_CLOCK_RESET.i_Clk' net was routed using global resources only.
+Info: route clock net 'w_Slow_Clk', src:e_CLOCK_RESET.e_CLOCK_CONTROL.e_pixel_clk_gen
+Info:     'w_Slow_Clk' net was routed using global resources only.
+Info: routing segmented...
+Info: Net w_Bram_Read_Addr[4] is routed using segments.
+Info: Net w_Bram_Read_Addr[5] is routed using segments.
+Info: Net w_Bram_Read_Addr[7] is routed using segments.
+Info: Net w_Bram_Read_Addr[9] is routed using segments.
+Info: Net w_Bram_Read_Addr[3] is routed using segments.
+Info: Net w_Bram_Read_Addr[1] is routed using segments.
+Info: Net e_FLASH_CONTROLLER.i_Miso_LUT3_I0_F_DFFC_D_Q_LUT3_I1_I0[2] is routed using segments.
+Info: Net e_FLASH_CONTROLLER.i_Miso_LUT3_I0_F_DFFC_D_Q[2] is routed using segments.
+Info: Net e_HDMI_DRIVER.r_Data_Addr_DFFC_Q_2_D_LUT3_F_I2_LUT4_I3_F_DFFC_D_Q_LUT4_I2_F_LUT3_I2_F_LUT3_I2_F_DFFC_D_Q[0] is routed using segments.
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 5702 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:       1000 |      301        698 |  301   698 |      5063|       0.28       0.28|
+Info:       2000 |      344       1655 |   43   957 |      4119|       1.70       1.97|
+Info:       3000 |      390       2609 |   46   954 |      3189|       1.81       3.78|
+Info:       4000 |      497       3502 |  107   893 |      2367|       2.08       5.85|
+Info:       5000 |      649       4350 |  152   848 |      1602|       2.12       7.98|
+Info:       6000 |      847       5152 |  198   802 |       928|       2.07      10.05|
+Info:       7000 |     1106       5893 |  259   741 |       260|       2.14      12.19|
+Info:       7443 |     1223       6220 |  117   327 |         0|       0.89      13.08|
+Info: Routing complete.
+Info: Router1 time 13.08s
+Info: Checksum: 0xf341891b
+
+Info: Critical path report for clock 'w_Slow_Clk' (posedge -> posedge):
+Info:       type curr  total name
+Info:   clk-to-q  0.46  0.46 Source e_HDMI_DRIVER.r_Data_Addr_DFFC_Q_2_D_LUT3_F_I2_LUT4_I3_F_DFFC_D_Q_LUT4_I2_F_LUT4_I3_F_DFFC_D_Q_DFF_D_Q_DFF_Q.Q
+Info:    routing  0.41  0.87 Net e_HDMI_DRIVER.r_Data_Addr_DFFC_Q_2_D_LUT3_F_I2_LUT4_I3_F_DFFC_D_Q_LUT4_I2_F_LUT4_I3_F_DFFC_D_Q_DFF_D_Q[0] (17,3) -> (17,3)
+Info:                          Sink e_BLOCK_RAM.r_Contents.0.6_DOB_1_LUT4_I0.I2
+Info:                           prediction: 0.000000 ns estimate: 0.200000 ns
+Info:                  0.412 X17Y3/C5/N100
+Info:                  0.000 X17Y3/N100/Q2
+Info:                          Defined in:
+Info:                               /usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.82  1.69 Source e_BLOCK_RAM.r_Contents.0.6_DOB_1_LUT4_I0.F
+Info:    routing  0.33  2.02 Net e_BLOCK_RAM.r_Contents.0.6_DOB_1_LUT4_I0_F[2] (17,3) -> (17,3)
+Info:                          Sink e_BLOCK_RAM.r_Contents.0.0_DOB_1_LUT4_I0_F_LUT4_F.I2
+Info:                           prediction: 0.000000 ns estimate: 0.200000 ns
+Info:                  0.326 X17Y3/C1/X04
+Info:                  0.000 X17Y3/X04/F5
+Info:                          Defined in:
+Info:                               /usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.82  2.84 Source e_BLOCK_RAM.r_Contents.0.0_DOB_1_LUT4_I0_F_LUT4_F.F
+Info:    routing  0.33  3.17 Net e_BLOCK_RAM.r_Contents.0.0_DOB_1_LUT4_I0_F[3] (17,3) -> (17,3)
+Info:                          Sink e_BLOCK_RAM.r_Contents.0.9_DOB_1_LUT3_I0_F_LUT4_I2_F_LUT4_F.I3
+Info:                           prediction: 0.000000 ns estimate: 0.200000 ns
+Info:                  0.326 X17Y3/D6/X02
+Info:                  0.000 X17Y3/X02/F1
+Info:                          Defined in:
+Info:                               /usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.62  3.79 Source e_BLOCK_RAM.r_Contents.0.9_DOB_1_LUT3_I0_F_LUT4_I2_F_LUT4_F.F
+Info:    routing  0.48  4.27 Net e_BLOCK_RAM.r_Contents.0.9_DOB_1_LUT3_I0_F_LUT4_I2_F[3] (17,3) -> (17,4)
+Info:                          Sink e_BLOCK_RAM.r_Contents.0.18_DOB_1_LUT4_I0_F_LUT4_F.I3
+Info:                           prediction: 0.100000 ns estimate: 0.300000 ns
+Info:                  0.479 X17Y4/D7/S261
+Info:                  0.000 X17Y3/S260/F6
+Info:                          Defined in:
+Info:                               /usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.62  4.89 Source e_BLOCK_RAM.r_Contents.0.18_DOB_1_LUT4_I0_F_LUT4_F.F
+Info:    routing  0.41  5.31 Net e_BLOCK_RAM.r_Contents.0.18_DOB_1_LUT4_I0_F[3] (17,4) -> (18,4)
+Info:                          Sink e_BLOCK_RAM.r_Contents.0.18_DOB_1_LUT4_I0_F_LUT4_I2.I3
+Info:                           prediction: 0.100000 ns estimate: 0.300000 ns
+Info:                  0.412 X18Y4/D7/E101
+Info:                  0.000 X17Y4/E100/F7
+Info:                          Defined in:
+Info:                               /usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.62  5.93 Source e_BLOCK_RAM.r_Contents.0.18_DOB_1_LUT4_I0_F_LUT4_I2.F
+Info:    routing  0.81  6.74 Net e_BLOCK_RAM.r_Contents.0.18_DOB_1_LUT4_I0_F_LUT4_I2_F[3] (18,4) -> (18,6)
+Info:                          Sink e_BLOCK_RAM.r_Contents.0.18_DOB_1_LUT4_I0_F_LUT4_I2_F_LUT4_I1.I3
+Info:                           prediction: 0.200000 ns estimate: 0.400000 ns
+Info:                  0.326 X18Y6/D2/X06
+Info:                  0.479 X18Y6/X06/S272
+Info:                  0.000 X18Y4/S270/F7
+Info:                          Defined in:
+Info:                               /usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.62  7.36 Source e_BLOCK_RAM.r_Contents.0.18_DOB_1_LUT4_I0_F_LUT4_I2_F_LUT4_I1.F
+Info:    routing  0.33  7.69 Net e_BLOCK_RAM.r_Contents.0.18_DOB_4_LUT4_I0_F_LUT4_I2_F_LUT2_I0_F[1] (18,6) -> (18,6)
+Info:                          Sink e_BLOCK_RAM.r_Contents.0.18_DOB_4_LUT4_I0_F_LUT4_I2_F_LUT2_I0_F_LUT4_I1.I1
+Info:                           prediction: 0.000000 ns estimate: 0.200000 ns
+Info:                  0.326 X18Y6/B3/X01
+Info:                  0.000 X18Y6/X01/F2
+Info:                          Defined in:
+Info:                               /usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  1.10  8.79 Source e_BLOCK_RAM.r_Contents.0.18_DOB_4_LUT4_I0_F_LUT4_I2_F_LUT2_I0_F_LUT4_I1.F
+Info:    routing  0.41  9.20 Net e_BLOCK_RAM.r_Contents.0.18_DOB_10_LUT4_I0_F_LUT4_I2_F_LUT4_I0_F[2] (18,6) -> (17,6)
+Info:                          Sink e_HDMI_DRIVER.e_TMDS_ENCODER_R.o_Encoded_Data_LUT2_F_I0_DFFC_Q_D_LUT4_F.I2
+Info:                           prediction: 0.100000 ns estimate: 0.300000 ns
+Info:                  0.412 X17Y6/C0/W101
+Info:                  0.000 X18Y6/W100/F3
+Info:                          Defined in:
+Info:                               /usr/local/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.82  10.02 Source e_HDMI_DRIVER.e_TMDS_ENCODER_R.o_Encoded_Data_LUT2_F_I0_DFFC_Q_D_LUT4_F.F
+Info:    routing  0.00  10.02 Net e_HDMI_DRIVER.e_TMDS_ENCODER_R.o_Encoded_Data_LUT2_F_I0_DFFC_Q_D (17,6) -> (17,6)
+Info:                          Sink e_HDMI_DRIVER.e_TMDS_ENCODER_R.o_Encoded_Data_LUT2_F_I0_DFFC_Q.D
+Info:                           prediction: 0.000000 ns estimate: 0.200000 ns
+Info:                  0.000 X17Y6/XD0/F0
+Info:      setup  0.40  10.42 Source e_HDMI_DRIVER.e_TMDS_ENCODER_R.o_Encoded_Data_LUT2_F_I0_DFFC_Q.D
+Info: 6.92 ns logic, 3.50 ns routing
+
+Info: Max frequency for clock 'w_Slow_Clk': 95.98 MHz (PASS at 12.00 MHz)
+
+Info: Clock 'e_CLOCK_RESET.i_Clk' has no interior paths
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ 72914,  73328) |* 
+Info: [ 73328,  73742) | 
+Info: [ 73742,  74156) | 
+Info: [ 74156,  74570) | 
+Info: [ 74570,  74984) | 
+Info: [ 74984,  75398) | 
+Info: [ 75398,  75812) | 
+Info: [ 75812,  76226) |* 
+Info: [ 76226,  76640) |**** 
+Info: [ 76640,  77054) |* 
+Info: [ 77054,  77468) |****** 
+Info: [ 77468,  77882) |*********** 
+Info: [ 77882,  78296) |************ 
+Info: [ 78296,  78710) |********** 
+Info: [ 78710,  79124) |* 
+Info: [ 79124,  79538) |****** 
+Info: [ 79538,  79952) |****** 
+Info: [ 79952,  80366) |**** 
+Info: [ 80366,  80780) |************************** 
+Info: [ 80780,  81194) |****************************************************** 
+
+Info: Program finished normally.
